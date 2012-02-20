@@ -9,8 +9,11 @@ Gem::Specification.new do |s|
   s.authors     = ["da99"]
   s.email       = ["i-hate-spam-45671204@mailinator.com"]
   s.homepage    = ""
-  s.summary     = %q{TODO: Write a gem summary}
-  s.description = %q{TODO: Write a gem description}
+  s.summary     = %q{Take a string and turn it to an array of lines.}
+  s.description = %q{
+    Turns a string into an array of lines without an \\n\\r in 
+    each entry: Strip_Lines(" test \\n  test ")
+  }
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
