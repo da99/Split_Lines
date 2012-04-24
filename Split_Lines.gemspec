@@ -8,11 +8,12 @@ Gem::Specification.new do |s|
   s.version     = Split_Lines::VERSION
   s.authors     = ["da99"]
   s.email       = ["i-hate-spam-45671204@mailinator.com"]
-  s.homepage    = ""
+  s.homepage    = "https://github.com/da99/Split_Lines"
   s.summary     = %q{Take a string and turn it to an array of lines.}
   s.description = %q{
-    Turns a string into an array of lines without an \\n\\r in 
-    each entry: Strip_Lines(" test \\n  test ")
+    A function that splits a string into 
+    an Array of stripped, non-empty lines: 
+    Strip_Lines(" test \n \n  test ")
   }
 
   s.files         = `git ls-files`.split("\n")
