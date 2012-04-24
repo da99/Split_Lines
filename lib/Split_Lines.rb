@@ -5,7 +5,9 @@ class Split_Lines
 end # === class Split_Lines
 
 def Split_Lines str
-  str.strip.split( Split_Lines::Separator ).reject { |str|
-    str.strip.empty?
-  }
+  str.split( Split_Lines::Separator ).map { |str|
+    s = str.strip
+    next if s.empty?
+    s
+  }.compact
 end
