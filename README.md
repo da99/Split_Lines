@@ -2,8 +2,12 @@
 Split\_Lines
 ===========
 
-A Ruby gem that extracts each line from text, strips,
-rejects empty lines, and returns an Array.
+A Ruby gem providing a single function, `Split_Lines`. It:
+
+* extracts each line from text.
+* strips each line.
+* rejects empty lines.
+* returns the lines in an Array.
 
 Installation
 ----
